@@ -1,0 +1,14 @@
+{
+  "customSyntax": "@stylelint/postcss-css-in-js",
+  "rules": {
+    "color-named": "never",
+    "selector-class-pattern": "^[A-Z][a-zA-Z]+(?:-[a-z][a-zA-Z]+)?",
+    "color-hex-case": "upper",
+    "number-max-precision": 5,
+    "string-quotes": "single",
+    "property-no-vendor-prefix": true,
+    "declaration-block-semicolon-newline-after": "always",
+    "max-empty-lines": 1,
+    "at-rule-no-unknown": [true, { "ignoreAtRules": ["mixin", "define-mixin"] }]
+  }
+}
